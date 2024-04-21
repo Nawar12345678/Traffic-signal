@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.rectangle {
+    width: 100px;
+    height: 300px;
+    padding: 20px;
+    border-radius:50px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+.circle {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.red { background-color: red; }
+.yellow { background-color: rgb(247, 247, 39); }
+.green { background-color: rgb(11, 80, 11); }
+.gray { background-color: gray; }
